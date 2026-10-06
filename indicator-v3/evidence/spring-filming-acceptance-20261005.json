@@ -1,0 +1,151 @@
+{
+  "runId": "live_lanes8_1791232619",
+  "date": "2026-10-05",
+  "studioId": "<studio-instance>",
+  "mode": "Edit",
+  "regenerated": {
+    "rows": 36402,
+    "chunks": 94,
+    "rowDifferences": 0,
+    "pass": true
+  },
+  "performance": {
+    "render": {
+      "maxMs": 19.850600001518615,
+      "meanMs": 9.024628205224872,
+      "lastMs": 8.853100000123959
+    },
+    "companion": {
+      "originalPreserved": true,
+      "rowIndex": 2346,
+      "lane": 7,
+      "phase": "recorded",
+      "destroyed": false,
+      "updates": 40,
+      "partCount": 146,
+      "nodeCount": 48,
+      "removedPhysics": 181,
+      "readoutCount": 48
+    },
+    "uiErrors": 0,
+    "oldErrors": 0,
+    "oldPlaying": false,
+    "tick": 156,
+    "nativeCapturePresent": false,
+    "frame": {
+      "p95Ms": 18.07921752333641,
+      "maxMs": 20.088160410523415,
+      "count": 360,
+      "meanMs": 16.667340993363823
+    },
+    "counts": {
+      "RoAlgoSpringArrayReplay": {
+        "moved": 384,
+        "unanchored": 0,
+        "constraints": 0,
+        "parts": 392
+      },
+      "RoAlgoSpringReplay": {
+        "moved": 24,
+        "unanchored": 0,
+        "constraints": 0,
+        "parts": 50
+      },
+      "RoAlgoSpringArrayCompanion": {
+        "moved": 48,
+        "unanchored": 0,
+        "constraints": 0,
+        "parts": 146
+      }
+    },
+    "presentation": {
+      "rowIndex": 2346,
+      "phase": "recorded",
+      "destroyed": false,
+      "panelRowIndex": 2346,
+      "chartIndex": 2346,
+      "tick": 156,
+      "clockOwnedByHost": true,
+      "seeks": 37,
+      "selectedLane": 7,
+      "playing": false
+    }
+  },
+  "ui": {
+    "small": {
+      "Score": -0.140774,
+      "DisplacementStudsPerUnit": 16,
+      "Partition": "forward_test",
+      "Legend": "spring colour = stretch · grey at rest · amber→yellow lengthened · blue→cyan compressed · couplings warmer = longer",
+      "SuggestedMaxZoomDistance": 874,
+      "RestGeometry": "rest offsets derived from saved config; capture origin not saved",
+      "ObservationT": 1735840500,
+      "ScaleNote": "x drawn at 16 studs per unit (2x layout scale) · anchors 64 studs on -X · rest offsets derived from saved config; capture origin not saved",
+      "AnchorOffset": 512,
+      "DisplayOrigin": null,
+      "CouplingBeams": 37,
+      "ViewPosition": null,
+      "FocusPosition": null,
+      "RunId": "coupled",
+      "CouplingVisible": true,
+      "PhysicalInput": true,
+      "SpringReplayView": true,
+      "RowIndex": 2310,
+      "SampleId": "coupled:2310",
+      "Scope": "Anchored replay markers of precomputed rows; decoration never participates in dynamics; no live simulation",
+      "RunKind": "live_native",
+      "Tails": 24,
+      "Nodes": 24,
+      "NodeLabels": 24,
+      "VisualScale": 0.25,
+      "VisualOnly": true,
+      "ViewFieldOfView": 50,
+      "CameraSubject": "Focus",
+      "AnchorDisplayStuds": 64,
+      "Schema": "roalgo-spring-replay-2",
+      "LayoutScale": 0.125
+    },
+    "arrayBottomVisible": false,
+    "chartSize": "1123, 310",
+    "panelEnabled": true,
+    "chartEnabled": true,
+    "header": "SPRING CLUSTER · LAYER 7 · COUPLED",
+    "companionArrayDisplacementMismatches": 0,
+    "restored": {
+      "rowIndex": 2310,
+      "phase": "recorded",
+      "destroyed": false,
+      "panelRowIndex": 2310,
+      "chartIndex": 2310,
+      "tick": 120,
+      "clockOwnedByHost": true,
+      "seeks": 38,
+      "selectedLane": 7,
+      "playing": false
+    },
+    "gap": {
+      "chartEnabled": false,
+      "controlsVisible": true,
+      "smallParked": true,
+      "phase": "warmup",
+      "settling": true
+    },
+    "play": {
+      "visible": true,
+      "size": "72, 24",
+      "position": "1227, 166"
+    },
+    "visibleReplay": [
+      {
+        "name": "CoreGui.RoAlgoSpringPanel.Dock.Content.ArrayPresentationControls.Toggle",
+        "text": "Replay: off"
+      }
+    ]
+  },
+  "notes": [
+    "Performance is a six-second sample at 6 ticks/s, not a guarantee on every viewpoint.",
+    "The chart and companion displays follow selected layer7. Other layers retain their actual different historical block times.",
+    "All presentation geometry anchored; no StepPhysics, new captures or trading recomputation during playback. Original scientific rig parked intact and restored on exit.",
+    "Sealed run files and scientific modules were not changed."
+  ]
+}

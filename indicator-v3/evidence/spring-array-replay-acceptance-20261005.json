@@ -1,0 +1,22 @@
+{
+  "playText": "Play",
+  "restoredTick": 79,
+  "uiErrors": 0,
+  "beams": 680,
+  "playedTick": 483,
+  "p95FrameMs": 18.2470865547657,
+  "constraints": 0,
+  "nodeCount": 384,
+  "maxFrameMs": 31.296297907829285,
+  "playing": false,
+  "numericReadouts": 384,
+  "nativeRunning": false,
+  "playVisible": true,
+  "unanchored": 0,
+  "partCount": 392,
+  "meanFrameMs": 16.66874576282377,
+  "beforeTick": 435,
+  "nativeCapturePresent": false,
+  "guiEnabled": true,
+  "movedNodes": 288
+}

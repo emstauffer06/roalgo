@@ -1,0 +1,78 @@
+{
+  "runId": "live_lanes8_1791232619",
+  "status": "complete",
+  "manifestSha256": "d2210c5b218c227d5b4854dc79484480149fc78813b162d100c44edb78e5f4d2",
+  "planHashMatch": true,
+  "errors": [],
+  "chunks": 94,
+  "rows": 36402,
+  "lastIndex": 36402,
+  "lastSavedIndex": 36402,
+  "unsavedRows": 0,
+  "totalChunkBytes": 158655861,
+  "elapsedSeconds": 2442.27,
+  "endedAtUtc": "2026-10-05T21:17:41.465Z",
+  "checks": {
+    "bars": {
+      "actual": 36402,
+      "expected": 36402,
+      "pass": true
+    },
+    "isolationEnd": {
+      "at": "end",
+      "maxDelta": 0,
+      "ok": true
+    },
+    "totalSteps": {
+      "actual": 436824,
+      "expected": 436824,
+      "pass": true
+    }
+  },
+  "native": {
+    "globalBars": 5616,
+    "globalSteps": 67392,
+    "totalSteps": 436824,
+    "runner": {
+      "barrierChecks": 22463,
+      "barrierFailures": 0,
+      "corruptSteps": 0,
+      "delayedCompletions": 0,
+      "droppedRequests": 9627,
+      "framesWaited": 107505,
+      "lastBarrier": {
+        "expected": 12,
+        "observedA": 12.000000699944463,
+        "observedB": 12.000000699944463,
+        "phase": "quiet frame 2"
+      },
+      "lossFrames": 3,
+      "parts": 386,
+      "postBarQuietFrames": 2,
+      "protocol": "three-frame loss window; two-frame pre-publication quiescence; no corrupt recovery in place",
+      "quietFramesWaited": 11232,
+      "requests": 77019,
+      "settles": 1,
+      "stepFailures": 0,
+      "totalBars": 5616,
+      "totalSteps": 67392
+    },
+    "isolation": {
+      "checks": 97,
+      "lastMaxDelta": 0,
+      "limit": 0.000001,
+      "maxDelta": 0,
+      "missing": 0,
+      "parts": 50
+    },
+    "capture": {
+      "producing": false,
+      "stepping": false,
+      "shutdownComplete": true,
+      "rowsDelivered": 36402
+    },
+    "laneMaxAbsX": 114.73822021484375,
+    "laneMaxOffAxis": 0,
+    "saturationObservations": 0
+  }
+}

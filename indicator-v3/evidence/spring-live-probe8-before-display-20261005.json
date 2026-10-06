@@ -1,0 +1,366 @@
+{
+  "corrupt": 0,
+  "isolationMaxDelta": 0,
+  "minLaneSeparation": 8450.5,
+  "modules": {
+    "lane": {
+      "SpringBlockSchedule": {
+        "stamp": "8f0063c0f8e65ed3f7e1ef555a2a8c3b3bde7c2217ba61bb9533beac83d4c8e9",
+        "attribute": "8f0063c0f8e65ed3f7e1ef555a2a8c3b3bde7c2217ba61bb9533beac83d4c8e9",
+        "sha256": "8f0063c0f8e65ed3f7e1ef555a2a8c3b3bde7c2217ba61bb9533beac83d4c8e9"
+      },
+      "SpringLaneCapture": {
+        "stamp": "42e5e36c97890ba8c2f471fcf500f74ae72b0f7e60b16cf1dc2e7c393de362ce",
+        "attribute": "42e5e36c97890ba8c2f471fcf500f74ae72b0f7e60b16cf1dc2e7c393de362ce",
+        "sha256": "42e5e36c97890ba8c2f471fcf500f74ae72b0f7e60b16cf1dc2e7c393de362ce"
+      },
+      "SpringLiveCapture": {
+        "stamp": "15a5673d287756ca2969d17e5e8e798c726949257a941a46d3a995960098dae1",
+        "attribute": "15a5673d287756ca2969d17e5e8e798c726949257a941a46d3a995960098dae1",
+        "sha256": "15a5673d287756ca2969d17e5e8e798c726949257a941a46d3a995960098dae1"
+      },
+      "SpringLaneLayout": {
+        "stamp": "d2688a0daf928fd1cdb8a2b0b2c8d7a1c156f2ae9771778b24eace7c10c6dcb8",
+        "attribute": "d2688a0daf928fd1cdb8a2b0b2c8d7a1c156f2ae9771778b24eace7c10c6dcb8",
+        "sha256": "d2688a0daf928fd1cdb8a2b0b2c8d7a1c156f2ae9771778b24eace7c10c6dcb8"
+      },
+      "SpringFeaturesPass": {
+        "stamp": "fdfd386d7f094747a5e5e3143c9ab5037adc59d684871b54271e95be14c30b81",
+        "attribute": "fdfd386d7f094747a5e5e3143c9ab5037adc59d684871b54271e95be14c30b81",
+        "sha256": "fdfd386d7f094747a5e5e3143c9ab5037adc59d684871b54271e95be14c30b81"
+      }
+    },
+    "pinned": {
+      "SpringV2Engine": {
+        "stamp": "fcf8784e92f758746f761aaa941fc5959c88e298f98f4c437c42a095349d0d47",
+        "pin": "fcf8784e92f758746f761aaa941fc5959c88e298f98f4c437c42a095349d0d47",
+        "sha256": "fcf8784e92f758746f761aaa941fc5959c88e298f98f4c437c42a095349d0d47",
+        "attribute": "fcf8784e92f758746f761aaa941fc5959c88e298f98f4c437c42a095349d0d47"
+      },
+      "SpringV2Mechanics": {
+        "stamp": "d4680345e89cf738b5b9d0ca00bf88750b1b01b697cae9747ff6156d1c2b3e28",
+        "pin": "d4680345e89cf738b5b9d0ca00bf88750b1b01b697cae9747ff6156d1c2b3e28",
+        "sha256": "d4680345e89cf738b5b9d0ca00bf88750b1b01b697cae9747ff6156d1c2b3e28",
+        "attribute": "d4680345e89cf738b5b9d0ca00bf88750b1b01b697cae9747ff6156d1c2b3e28"
+      },
+      "VerifiedStepper": {
+        "stamp": "1ee4c13cac93f1dafea47c0f5d8a595558a0a03d14decb357fef36eb14a31fa4",
+        "pin": "1ee4c13cac93f1dafea47c0f5d8a595558a0a03d14decb357fef36eb14a31fa4",
+        "sha256": "1ee4c13cac93f1dafea47c0f5d8a595558a0a03d14decb357fef36eb14a31fa4",
+        "attribute": "1ee4c13cac93f1dafea47c0f5d8a595558a0a03d14decb357fef36eb14a31fa4"
+      },
+      "Regime": {
+        "stamp": "5b8ac36eac95fb2e9f7c100c89202bbe9267f24ff0787fafbdf8bbe35bdb0d4f",
+        "pin": "5b8ac36eac95fb2e9f7c100c89202bbe9267f24ff0787fafbdf8bbe35bdb0d4f",
+        "sha256": "5b8ac36eac95fb2e9f7c100c89202bbe9267f24ff0787fafbdf8bbe35bdb0d4f",
+        "attribute": "5b8ac36eac95fb2e9f7c100c89202bbe9267f24ff0787fafbdf8bbe35bdb0d4f"
+      },
+      "SpringV2Features": {
+        "stamp": "c1ac95b23491d9fb76cc574e72a556d9c2ad621d934fa90ee798256c8e066c76",
+        "pin": "c1ac95b23491d9fb76cc574e72a556d9c2ad621d934fa90ee798256c8e066c76",
+        "sha256": "c1ac95b23491d9fb76cc574e72a556d9c2ad621d934fa90ee798256c8e066c76",
+        "attribute": "c1ac95b23491d9fb76cc574e72a556d9c2ad621d934fa90ee798256c8e066c76"
+      }
+    }
+  },
+  "lanes": 8,
+  "studioAtStart": {
+    "allowSleep": true,
+    "studioVersion": "0.741.19.7411056",
+    "physicsEnvironmentalThrottle": "Enum.EnviromentalPhysicsThrottle.DefaultAuto",
+    "gravity": 196.1999969482422,
+    "placeId": 0
+  },
+  "barsPerSecondPerLane": 3.1169276929960352,
+  "seconds": 6.416574900002161,
+  "containerName": "RoAlgoSpringLiveLanes",
+  "steps": 240,
+  "studio": {
+    "allowSleep": true,
+    "studioVersion": "0.741.19.7411056",
+    "physicsEnvironmentalThrottle": "Enum.EnviromentalPhysicsThrottle.DefaultAuto",
+    "gravity": 196.1999969482422,
+    "placeId": 0
+  },
+  "framesWaited": 385,
+  "dropped": 36,
+  "spacing": 13060,
+  "layout": {
+    "excluded": {
+      "1": {
+        "min": {
+          "y": 4991.749,
+          "x": -404,
+          "z": -504
+        },
+        "max": {
+          "y": 5004,
+          "x": -396,
+          "z": -496
+        }
+      },
+      "2": {
+        "min": {
+          "y": 4991.749,
+          "x": 396,
+          "z": -504
+        },
+        "max": {
+          "y": 5004,
+          "x": 404,
+          "z": -496
+        }
+      },
+      "3": {
+        "min": {
+          "y": 79.25,
+          "x": -2048.5,
+          "z": -896.75
+        },
+        "max": {
+          "y": 5004,
+          "x": 404,
+          "z": 896.75
+        }
+      }
+    },
+    "zoneClearance": 0,
+    "worstFloat32UlpByAxis": {
+      "y": 0.0001220703125,
+      "x": 0.00006103515625,
+      "z": 0.00390625
+    },
+    "railLimit": 224,
+    "lanes": {
+      "1": {
+        "box": {
+          "min": {
+            "y": 1023.25,
+            "x": -512.5,
+            "z": -44686.75
+          },
+          "max": {
+            "y": 1536.75,
+            "x": 224.75,
+            "z": -40077.25
+          }
+        },
+        "offsetZ": -45710,
+        "index": 1,
+        "origin": {
+          "y": 1024,
+          "x": 0,
+          "z": -44686
+        }
+      },
+      "2": {
+        "box": {
+          "min": {
+            "y": 1023.25,
+            "x": -512.5,
+            "z": -31626.75
+          },
+          "max": {
+            "y": 1536.75,
+            "x": 224.75,
+            "z": -27017.25
+          }
+        },
+        "offsetZ": -32650,
+        "index": 2,
+        "origin": {
+          "y": 1024,
+          "x": 0,
+          "z": -31626
+        }
+      },
+      "3": {
+        "box": {
+          "min": {
+            "y": 1023.25,
+            "x": -512.5,
+            "z": -18566.75
+          },
+          "max": {
+            "y": 1536.75,
+            "x": 224.75,
+            "z": -13957.25
+          }
+        },
+        "offsetZ": -19590,
+        "index": 3,
+        "origin": {
+          "y": 1024,
+          "x": 0,
+          "z": -18566
+        }
+      },
+      "4": {
+        "box": {
+          "min": {
+            "y": 1023.25,
+            "x": -512.5,
+            "z": -5506.75
+          },
+          "max": {
+            "y": 1536.75,
+            "x": 224.75,
+            "z": -897.25
+          }
+        },
+        "offsetZ": -6530,
+        "index": 4,
+        "origin": {
+          "y": 1024,
+          "x": 0,
+          "z": -5506
+        }
+      },
+      "5": {
+        "box": {
+          "min": {
+            "y": 1023.25,
+            "x": -512.5,
+            "z": 7553.25
+          },
+          "max": {
+            "y": 1536.75,
+            "x": 224.75,
+            "z": 12162.75
+          }
+        },
+        "offsetZ": 6530,
+        "index": 5,
+        "origin": {
+          "y": 1024,
+          "x": 0,
+          "z": 7554
+        }
+      },
+      "6": {
+        "box": {
+          "min": {
+            "y": 1023.25,
+            "x": -512.5,
+            "z": 20613.25
+          },
+          "max": {
+            "y": 1536.75,
+            "x": 224.75,
+            "z": 25222.75
+          }
+        },
+        "offsetZ": 19590,
+        "index": 6,
+        "origin": {
+          "y": 1024,
+          "x": 0,
+          "z": 20614
+        }
+      },
+      "7": {
+        "box": {
+          "min": {
+            "y": 1023.25,
+            "x": -512.5,
+            "z": 33673.25
+          },
+          "max": {
+            "y": 1536.75,
+            "x": 224.75,
+            "z": 38282.75
+          }
+        },
+        "offsetZ": 32650,
+        "index": 7,
+        "origin": {
+          "y": 1024,
+          "x": 0,
+          "z": 33674
+        }
+      },
+      "8": {
+        "box": {
+          "min": {
+            "y": 1023.25,
+            "x": -512.5,
+            "z": 46733.25
+          },
+          "max": {
+            "y": 1536.75,
+            "x": 224.75,
+            "z": 51342.75
+          }
+        },
+        "offsetZ": 45710,
+        "index": 8,
+        "origin": {
+          "y": 1024,
+          "x": 0,
+          "z": 46734
+        }
+      }
+    },
+    "footprint": {
+      "min": {
+        "y": 1023.25,
+        "x": -512.5,
+        "z": 1023.25
+      },
+      "max": {
+        "y": 1536.75,
+        "x": 224.75,
+        "z": 5632.75
+      }
+    },
+    "checks": {
+      "zones": 3,
+      "zoneClearance": 0,
+      "minLaneSeparation": 8450.5,
+      "symmetric": true,
+      "minZoneSeparation": 0.5,
+      "count": 8,
+      "sameXY": true,
+      "requiredGap": 512,
+      "exactFloat32": true,
+      "pairs": 28,
+      "maxFloat32RoundTrip": 0
+    },
+    "quantum": 2,
+    "gap": 512,
+    "maxAbsCoordinate": 51342.75,
+    "worstCoordinate": {
+      "ulp": 0.00390625,
+      "lane": 1,
+      "value": -44686,
+      "part": "origin",
+      "axis": "z"
+    },
+    "bounds": {
+      "min": {
+        "y": 1023.25,
+        "x": -512.5,
+        "z": -44686.75
+      },
+      "max": {
+        "y": 1536.75,
+        "x": 224.75,
+        "z": 51342.75
+      }
+    },
+    "count": 8,
+    "worstFloat32Ulp": 0.00390625,
+    "spacing": 13060,
+    "depth": 4609.5,
+    "schema": "roalgo-spring-lane-layout-1",
+    "origin": {
+      "y": 1024,
+      "x": 0,
+      "z": 1024
+    }
+  },
+  "kept": true,
+  "bars": 20,
+  "isolationMissing": 0,
+  "parts": 386
+}

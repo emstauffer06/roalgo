@@ -1,0 +1,115 @@
+{
+  "sourceSha256": "A49587D1EB5A6708393A204D826D83843202CB0D102423EB51F518F1C9B9023A",
+  "studio": "<studio-instance>",
+  "place": 0,
+  "mode": "Edit",
+  "checks": {
+    "grips": [
+      "MovePanel",
+      "ResizePanelRightEdge",
+      "ResizePanelBottomEdge",
+      "ResizePanelBottomRight",
+      "MoveChart",
+      "ResizeChartRightEdge",
+      "ResizeChartBottomEdge",
+      "ResizeChartBottomRight"
+    ],
+    "unchanged": {
+      "playing": true,
+      "camera": true,
+      "lane": true,
+      "tick": true
+    },
+    "clamps": true,
+    "rate": 6,
+    "uiErrors": 0,
+    "restored": {
+      "chartY": 1265,
+      "moveBarHeight": 24,
+      "chartHeight": 328,
+      "destroyed": false,
+      "chartAutoWidth": false,
+      "chartX": 11,
+      "panelHeight": 601,
+      "viewportWidth": 1074,
+      "chartWidth": 833,
+      "chartDocked": false,
+      "preferences": {
+        "panelWidth": 440,
+        "chartY": 1265,
+        "chartX": 11,
+        "panelHeight": 601,
+        "chartHeight": 328,
+        "panelX": 634,
+        "chartWidth": 833,
+        "panelY": 985
+      },
+      "panelAutoHeight": false,
+      "cameraWrites": 0,
+      "viewportHeight": 1633,
+      "dragging": false,
+      "gap": 12,
+      "panelDocked": false,
+      "panelScale": 1,
+      "panelY": 985,
+      "panelX": 634,
+      "panelWidth": 440
+    },
+    "ok": true,
+    "scrollbar": "Left",
+    "independent": true,
+    "overlap": {
+      "panel": {
+        "y": 80,
+        "x": 40,
+        "height": 420,
+        "width": 320
+      },
+      "layout": {
+        "chartY": 180,
+        "moveBarHeight": 24,
+        "chartHeight": 260,
+        "dragging": false,
+        "chartAutoWidth": false,
+        "chartX": 120,
+        "panelHeight": 420,
+        "viewportWidth": 1074,
+        "chartWidth": 700,
+        "chartDocked": false,
+        "panelWidth": 320,
+        "panelAutoHeight": false,
+        "panelX": 40,
+        "viewportHeight": 1633,
+        "destroyed": false,
+        "panelDocked": false,
+        "preferences": {
+          "panelHeight": 420,
+          "chartY": 180,
+          "chartX": 120,
+          "chartHeight": 260,
+          "chartWidth": 700,
+          "panelY": 80,
+          "panelX": 40,
+          "panelWidth": 320
+        },
+        "panelScale": 0.7272727272727273,
+        "gap": 12,
+        "cameraWrites": 0,
+        "panelY": 80
+      },
+      "content": {
+        "y": 79.99998474121094,
+        "x": 40,
+        "height": 419.6363830566406,
+        "width": 320
+      },
+      "chart": {
+        "y": 180,
+        "x": 120,
+        "height": 260,
+        "width": 700
+      }
+    }
+  },
+  "inputVerification": "Move/resize handlers reviewed; geometry verified via control setter in actual CoreGui. Native mouse automation is Client-only, so no automated Edit-mode drag was performed."
+}

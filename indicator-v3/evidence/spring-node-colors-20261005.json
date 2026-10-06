@@ -1,0 +1,125 @@
+{
+  "moduleSha256": "A30A62AA8FBF2BE77A3365E9D8C3A79820FFF681B41646CE290DEF937958F279",
+  "studio": "<studio-instance>",
+  "place": 0,
+  "mode": "Edit",
+  "colorMeaning": "Signed displayed displacement / native displacement unit; negative red, zero neutral gray, positive green; full intensity at +/-1.",
+  "initialInstall": {
+    "playback": {
+      "tick": 4304,
+      "uiErrors": 0,
+      "lane": 5,
+      "rate": 6,
+      "playing": true
+    },
+    "colors": {
+      "maxUpdateMs": 3.9538999990327284,
+      "meanUpdateMs": 3.9538999990327284,
+      "autoUpdate": true,
+      "colorWrites": 504,
+      "neutral": 0,
+      "destroyed": false,
+      "skipped": 0,
+      "green": 237,
+      "smallNodes": 24,
+      "companionNodes": 48,
+      "arrayNodes": 384,
+      "modelCount": 3,
+      "updates": 1,
+      "nodeCount": 456,
+      "adornmentCount": 48,
+      "red": 219
+    },
+    "unchanged": {
+      "camera": true,
+      "tick": true,
+      "lane": true,
+      "posesChanged": 0,
+      "playing": true
+    }
+  },
+  "finalValidation": {
+    "interval": {
+      "meanUpdateMs": 0.7179671870289894,
+      "updates": 64,
+      "colorWrites": 0
+    },
+    "samples": [
+      {
+        "uiErrors": 0,
+        "maxAdornmentRGBError": 0,
+        "tick": 4531,
+        "adornments": 48,
+        "nodes": 456,
+        "maxRGBError": 0.00293537974357605,
+        "rate": 6,
+        "playing": false
+      },
+      {
+        "uiErrors": 0,
+        "maxAdornmentRGBError": 0,
+        "tick": 4531,
+        "adornments": 48,
+        "nodes": 456,
+        "maxRGBError": 0.00293537974357605,
+        "rate": 6,
+        "playing": false
+      },
+      {
+        "uiErrors": 0,
+        "maxAdornmentRGBError": 0,
+        "tick": 4531,
+        "adornments": 48,
+        "nodes": 456,
+        "maxRGBError": 0.00293537974357605,
+        "rate": 6,
+        "playing": false
+      },
+      {
+        "uiErrors": 0,
+        "maxAdornmentRGBError": 0,
+        "tick": 4531,
+        "adornments": 48,
+        "nodes": 456,
+        "maxRGBError": 0.00293537974357605,
+        "rate": 6,
+        "playing": false
+      },
+      {
+        "uiErrors": 0,
+        "maxAdornmentRGBError": 0,
+        "tick": 4531,
+        "adornments": 48,
+        "nodes": 456,
+        "maxRGBError": 0.00293537974357605,
+        "rate": 6,
+        "playing": false
+      }
+    ],
+    "colors": {
+      "meanUpdateMs": 0.7334905684496821,
+      "neutral": 0,
+      "destroyed": false,
+      "updates": 1601,
+      "modelCount": 3,
+      "nodeCount": 456,
+      "adornmentCount": 48,
+      "red": 222,
+      "skipped": 0,
+      "smallNodes": 24,
+      "companionNodes": 48,
+      "arrayNodes": 384,
+      "green": 234,
+      "autoUpdate": false,
+      "maxUpdateMs": 3.8186000019777566,
+      "inlineMotionUpdates": true,
+      "colorWrites": 504
+    }
+  },
+  "notes": [
+    "All three models are presentation models. No saved data, constraints, beams, camera or CFrame writes were made by the color module.",
+    "Final acceptance sampled the user-paused view. Runtime inline hooks update immediately after motion writes while running.",
+    "Initial separate Heartbeat adapter was replaced after measuring one-frame color lag. Final adapter uses synchronous motion callbacks.",
+    "Future controller source calls the color module directly after transitions, advances and pause rendering."
+  ]
+}

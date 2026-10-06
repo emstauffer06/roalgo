@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-05",
+  "runId": "live_lanes8_1791232619",
+  "mode": "Edit",
+  "scope": "Filming presentation and smoothing only",
+  "tests": {
+    "presentationGroups": 7,
+    "motionGroups": 7,
+    "compiled": true
+  },
+  "acceptance": {
+    "clipped": [],
+    "frames": 361,
+    "uiErrors": 0,
+    "rateChangeRejected": true,
+    "nodeMovingFrames": 349,
+    "endTick": 156,
+    "buttons": [
+      "Run",
+      "Layer 7 / 8"
+    ],
+    "oldUiErrors": 0,
+    "rate": 6,
+    "motion": {
+      "cachedParts": 588,
+      "captures": 255,
+      "elapsed": 0,
+      "duration": 0,
+      "movedParts": 456,
+      "modelCount": 3,
+      "activeParts": 0,
+      "capturedParts": 0,
+      "transitions": 255,
+      "destroyed": false
+    },
+    "oldPlaying": false,
+    "startTick": 120,
+    "telemetryCheck": {
+      "meanError": 0.000010728836058682134,
+      "rmsError": 0.000005771457452397044,
+      "activeMatches": true
+    },
+    "rows": {
+      "panel": 2346,
+      "chart": 2346,
+      "selected": 2346
+    },
+    "timing": {
+      "p95Ms": 25.848081335425377,
+      "maxMs": 29.39569391310215,
+      "meanMs": 16.665864319197443
+    },
+    "selectedLane": 7,
+    "texts": [
+      {
+        "name": "Brand",
+        "text": "ROALGO · SPRING INDICATOR"
+      },
+      {
+        "name": "Header",
+        "text": "SPRING CLUSTER · LAYER 7 · COUPLED"
+      },
+      {
+        "name": "Timestamp",
+        "text": "2025-01-02 15:55 ET"
+      },
+      {
+        "name": "Score",
+        "text": "CONFIDENCE +0.0488"
+      },
+      {
+        "name": "Thresholds",
+        "text": "entry ±0.1128 · exit ±0.0507 · bank deadband ±0.0282"
+      },
+      {
+        "name": "BankName1",
+        "text": "FAST"
+      },
+      {
+        "name": "BankValue1",
+        "text": "+0.1474"
+      },
+      {
+        "name": "BankName2",
+        "text": "MEDIUM"
+      },
+      {
+        "name": "BankValue2",
+        "text": "+0.0513"
+      },
+      {
+        "name": "BankName3",
+        "text": "SLOW"
+      },
+      {
+        "name": "BankValue3",
+        "text": "-0.0523"
+      },
+      {
+        "name": "Play",
+        "text": "Run"
+      },
+      {
+        "name": "Layer",
+        "text": "Layer 7 / 8"
+      },
+      {
+        "name": "Market",
+        "text": "S&P 500 · SPY · 2025–2026 TEST DATA"
+      },
+      {
+        "name": "ConfidenceMeaning",
+        "text": "Signed signal index · not a probability"
+      },
+      {
+        "name": "Heading",
+        "text": "SPRING TELEMETRY · COUPLED"
+      },
+      {
+        "name": "Topology",
+        "text": "24 measured nodes · 37 coupling links · 24 axial links"
+      },
+      {
+        "name": "Active",
+        "text": "Active 24 / 24 (|x| > 1 stud) · +13 / −11 / zero 0"
+      },
+      {
+        "name": "Displacement",
+        "text": "x mean +6.274 · RMS 26.537 · peak |x| 53.021 studs"
+      },
+      {
+        "name": "Speed",
+        "text": "Mean speed 31.535 · peak speed 118.039 studs/s"
+      },
+      {
+        "name": "Banks",
+        "text": "Mean x: fast +34.305 · medium -2.566 studs"
+      },
+      {
+        "name": "Slow",
+        "text": "Mean x: slow -12.919 studs · normalized x RMS 0.4146"
+      },
+      {
+        "name": "Stretch",
+        "text": "Coupling stretch RMS 66.078 studs (L − L0)"
+      },
+      {
+        "name": "StretchMeaning",
+        "text": "L = endpoint distance; L0 = free length (includes prestretch)"
+      },
+      {
+        "name": "IndependentHeading",
+        "text": "INDEPENDENT SPRINGS"
+      },
+      {
+        "name": "IndependentX",
+        "text": "x mean +5.601 · RMS 28.933 · peak |x| 54.234 studs"
+      },
+      {
+        "name": "IndependentActive",
+        "text": "24 nodes · 0 coupling / 24 axial links · 21 active (|x| > 1)"
+      },
+      {
+        "name": "IndependentSpeed",
+        "text": "Mean speed 31.446 · peak speed 123.909 studs/s"
+      },
+      {
+        "name": "Difference",
+        "text": "Coupled / independent x difference RMS 3.545 studs"
+      }
+    ]
+  },
+  "notes": [
+    "Telemetry uses saved physical endpoint states; animation between endpoints is visual interpolation.",
+    "Confidence remains the original signed signal index, not a probability.",
+    "Measured velocity reconstructed as D * node.omega * normalizedVelocity; displacement as D * normalizedX.",
+    "Active-node threshold is explicitly abs(displacement) > 1 stud.",
+    "No new physics capture, native stepping, trading policy changes or sealed result writes."
+  ]
+}

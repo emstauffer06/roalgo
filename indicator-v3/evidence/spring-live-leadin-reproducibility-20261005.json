@@ -1,0 +1,72 @@
+{
+  "label": "re-captured physics differs from the 2024 calibration capture",
+  "maxAbs": {
+    "numeric": 0.0000011774000388542483,
+    "coupled": 0.0000010097728055935562,
+    "independent": 0.00002962350845336914
+  },
+  "compared": 2268,
+  "maxAbsDrive": 0,
+  "indexMismatches": 0,
+  "resetMismatches": 0,
+  "status": "differs",
+  "leadInRows": 2268,
+  "invalidLive": 0,
+  "firstExceeded": {
+    "maxAbs": 3.018103154339702e-7,
+    "index": 391,
+    "variant": "numeric"
+  },
+  "maxAbsEnergy": {
+    "numeric": 6.181517436809614e-8,
+    "coupled": 1.3887627969833005e-7,
+    "independent": 0.000004516717832248052
+  },
+  "pass": false,
+  "drivesExact": true,
+  "missing": 0,
+  "decisionRows": {
+    "note": "rowDifferences counts rows whose decision or ledger row (the whole compact row, any of the 7 runs) differs (L20); actionRowDifferences counts rows whose intent, final action, pending order, position, equity, stop, target or fills differ",
+    "method": "a leadInRows=0 shadow session decides the lead-in rows; each row of the 7 runs is compared by digest",
+    "label": "659 of 2268 lead-in rows differ from the offline 2024 result (decision or ledger row; 0 with a different action or ledger)",
+    "compared": 2268,
+    "reference": "offline 2024 result 3fdcd3b5 fullHistory rows of all 7 runs (continuous ledgers from row 1)",
+    "sessionsDiffering": {
+      "no_trade": 0,
+      "coupled": 30,
+      "zero": 0,
+      "numeric": 4,
+      "ema_baseline": 0,
+      "independent": 6,
+      "frozen": 0
+    },
+    "status": "differs",
+    "actionRowDifferences": 0,
+    "firstDifferentRow": 5,
+    "sessionsCompared": 30,
+    "expectedRows": 2268,
+    "target": 2268,
+    "rowDifferences": 659,
+    "scheme": "spring-row-digest-1"
+  },
+  "tolerance": {
+    "numeric": 0,
+    "native": 0.002
+  },
+  "tMismatches": 0,
+  "maxAbsXV": {
+    "numeric": 0.0000011774000388542483,
+    "coupled": 0.0000010097728055935562,
+    "independent": 0.00002962350845336914
+  },
+  "maxAbsX": {
+    "numeric": 6.844788914550648e-7,
+    "coupled": 9.238719940185547e-7,
+    "independent": 0.00002962350845336914
+  },
+  "maxAbsV": {
+    "numeric": 0.0000011774000388542483,
+    "coupled": 0.0000010097728055935562,
+    "independent": 0.000017207034312897995
+  }
+}

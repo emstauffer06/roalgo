@@ -1,0 +1,5 @@
+# Restored chronological row scrubber
+
+The right panel again contains a row counter and drag scrubber below Run/Pause and Layer, above Confidence. It covers all36,402 chronological saved rows. Dragging pauses the single clock, resolves the requested row to its unique recorded lane/block/tick, automatically selects that lane, and updates the chart, telemetry and three spring displays together. Warm-up duplicates are excluded. The fixed six-tick rate and visual smoothing remain unchanged.
+
+Data:locateRow returns lane/tick/blockId using recorded block coverage. Controller command seekrow and presentation callback seekRow provide the shared path. Nineteen data/presentation behavioral checks passed, including full fixture inverse round trips, boundary/invalid rows, scrub endpoints/midpoint, pausing and cleanup. Changed sources compiled. Live checks matched chart/panel/array rows1,391,2269,18201,36402 with no UI errors and zero pending interpolation after seeking. Prior cursor, selected layer and running state were restored afterward.

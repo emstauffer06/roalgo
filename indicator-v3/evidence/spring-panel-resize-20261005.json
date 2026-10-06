@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-05",
+  "studioId": "<studio-instance>",
+  "result": {
+    "restored": {
+      "chartWidth": 1590,
+      "chartHeight": 310,
+      "dragging": false,
+      "destroyed": false,
+      "panelAutoHeight": true,
+      "cameraWrites": 0,
+      "viewportHeight": 793,
+      "chartAutoWidth": true,
+      "gap": 12,
+      "panelHeight": 793,
+      "panelScale": 0.6818181818181818,
+      "preferences": {
+        "panelWidth": 300
+      },
+      "viewportWidth": 1914,
+      "panelWidth": 300
+    },
+    "resized": {
+      "chartWidth": 400,
+      "chartHeight": 240,
+      "dragging": false,
+      "destroyed": false,
+      "panelAutoHeight": false,
+      "cameraWrites": 0,
+      "viewportHeight": 793,
+      "chartAutoWidth": false,
+      "gap": 12,
+      "panelHeight": 500,
+      "panelScale": 0.7272727272727273,
+      "preferences": {
+        "panelWidth": 320,
+        "panelHeight": 500,
+        "chartWidth": 400,
+        "chartHeight": 240
+      },
+      "viewportWidth": 1914,
+      "panelWidth": 320
+    },
+    "playbackRate": 6,
+    "handles": {
+      "chartCorner": true,
+      "panelEdge": true,
+      "chartEdge": true,
+      "panelCorner": true
+    },
+    "geometry": {
+      "gap": 1182,
+      "chart": "400, 240",
+      "content": "320, 499.636383",
+      "dock": "320, 500"
+    },
+    "uiErrors": 0
+  }
+}
