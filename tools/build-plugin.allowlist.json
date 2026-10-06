@@ -1,0 +1,38 @@
+{
+  "schema": "mrl-package-allowlist-1",
+  "luauRoot": "lab",
+  "directories": [
+    { "path": "lab/src", "recursive": true },
+    { "path": "lab/tests", "recursive": false },
+    { "path": "lab/tests/fixtures", "recursive": false },
+    { "path": "lab/fixtures", "recursive": false, "optional": true }
+  ],
+  "files": [
+    "lab/generated/ConfigData.luau",
+    "lab/generated/NyOffsets.luau",
+    "lab/generated/CalendarFixture.luau"
+  ],
+  "required": [
+    "lab/src/Main.server.luau",
+    "lab/src/Types.luau",
+    "lab/src/Config.luau",
+    "lab/generated/ConfigData.luau",
+    "lab/tests/Test.luau",
+    "lab/tests/Specs.luau",
+    "lab/tests/RunAll.luau"
+  ],
+  "neverPackage": [
+    "lab/generated/Sources.luau",
+    "lab/cli"
+  ],
+  "dataAssets": [
+    {
+      "group": "hourly-original",
+      "root": "data/alpaca-2021-10-04_2026-10-02",
+      "manifest": "manifest.json",
+      "symbols": ["SPY", "QQQ"],
+      "expectedLoaders": 2,
+      "expectedChunks": 40
+    }
+  ]
+}

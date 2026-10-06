@@ -1,0 +1,44 @@
+# Market data and anything derived from it are never committed (provider terms, and size).
+/data/
+/indicator/data/
+/indicator-v2/data/
+/indicator-v3/data/*
+!/indicator-v3/data/*.mjs
+/indicator/results/
+/indicator-v2/results/
+/indicator-v3/results/
+/indicator-v3/refits/*/data/
+/indicator-v3/refits/*/*.json
+/indicator-v3/spring-runs/*/*.json
+/lab/generated/NodeStructureAudit.luau
+/lab/generated/node-structure-audit.json
+/indicator-v3/tests/SpringRealSessions.luau
+/runs/*
+!/runs/exp-20261005/
+/runs/exp-20261005/*
+!/runs/exp-20261005/report.md
+!/runs/exp-20261005/protocol.json
+
+# Build outputs (rebuild with the package / build-plugin scripts)
+/build/
+/indicator/build/
+/indicator-v2/build/
+/indicator-v3/build/
+/indicator-v3/backups/
+
+# Runtime logs, state and temporary test runners
+*.log
+*.generated.luau
+spring-live-monitor-state.json
+
+# Credentials: keep API keys out of the repository (better: keep the key file outside the repository entirely)
+.env
+*credential*
+*secret*
+*.key
+*keys*.txt
+alpaca*.txt
+
+node_modules/
+.DS_Store
+Thumbs.db

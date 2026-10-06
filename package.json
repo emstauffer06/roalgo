@@ -1,0 +1,15 @@
+{
+  "name": "roalgo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Experimental proof of concept: a market indicator computed by Roblox's native physics engine and Luau.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test audit-supplement.test.mjs download-supplement.test.mjs download.test.mjs export-data.test.mjs prepare-supplement.test.mjs supplement-export.test.mjs indicator/bridge.test.mjs indicator/package.test.mjs indicator-v2/package.test.mjs indicator-v2/tests/AppLifecycle.test.mjs indicator-v2/tests/Stepper.test.mjs indicator-v3/package.test.mjs indicator-v3/tests/AppLifecycle.test.mjs indicator-v3/tests/AppProbe.test.mjs indicator-v3/tests/Stepper.test.mjs indicator-v3/tests/StudyImports.test.mjs tools/validate-results.test.mjs",
+    "test:luau": "node scripts/run-luau-specs.mjs",
+    "test:all": "node --test"
+  }
+}
