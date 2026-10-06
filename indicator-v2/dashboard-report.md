@@ -1,0 +1,13 @@
+# Dashboard hardening verification
+
+Scope: historical exploratory research. This probe uses synthetic bars passed through the real Execution module. Market data hashes, split selection and native physics step counters are not applicable to the UI probe; it does not step physics. It tests native ScreenGui construction/data binding, viewport layout and the shared button callback handlers, and does not claim physical mouse input.
+
+The dashboard now binds Execution's numeric trade direction to LONG/SHORT, displays actual entry/exit fill times in UTC and net return with fee/borrow amounts, and distinguishes close-time B/S/C signals from actual F execution fills. Numeric state is labeled COMPUTED, native x/v is labeled MEASURED, and node force is labeled modeled. Dataset metadata supplies coverage and T/V/E session counts; fitted model/report samples supply training/validation label counts. The public mount/setSelection/setProgress/render/append/inspect/testActivate/clear/destroy interface remains unchanged.
+
+Clear resets prior models/comparisons, chart and marker attributes, trade ledger, inspected state, drive/regime values, contributions and progress. Empty render is safe and absent comparison results do not retain old returns. Missing selected native or numeric state shows unavailable; raw/reduced models explicitly inspect coupled native diagnostics while marking them unused by that model.
+
+Tests were written first. Root ran DashboardProbe against the previous dashboard and observed the intended failures: numeric state mislabeled, numeric -1 trade direction, missing costs/coverage, stale chart/comparison/ledger/inspector/drive state after clear, and render(nil) error. Existing callback and layout checks passed in that failing run.
+
+After the fixes, root's Studio run passed **21/21 native UI checks**, including five distinct Execution fills. Measured viewport was 1790x793 with UIScale .85; the scaled terminal fits that viewport. Tested Dashboard SHA256 was `ED8C21EB7C0B3A37149299773B2606620FD28FE971FEE335C6541DE8C0BA98EE`. Tested DashboardProbe SHA256 is `45351E6CFEB95490499BC7EC660A5F5FC4CDBD12087EAE69E30EBC613E2DBC07`.
+
+One subsequent safeguard removed fallback substitution of coupled native state for a missing numeric/independent state. Final Dashboard SHA256 is `06197DBF8CE5C9F0A5BB394BDEBFB33397A850C76871A4944065FF8EFE28113F`. Both final dashboard and probe compile with Luau 0.741 `luau-compile.exe --null`; the 21/21 native result belongs to the exact preceding tested dashboard hash. Root will load the final source before the full run. No native test of the subsequent fallback guard is claimed here.
